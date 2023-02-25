@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+
+.count-num{
+text-align: center;
+    margin-top: 20%;
+    position: relative;
+    font-size: 45px;
+
+    
+
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.btns .add-btn{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.btns .sub-btn{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.count-num .num{
+    color: white;
+}
